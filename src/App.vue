@@ -8,24 +8,24 @@
 
     <v-navigation-drawer touchless app fixed v-model="drawer">
       <v-list nav>
-        <v-list-item-group v-model="group">
+        <v-list-item-group>
           <v-list-item to="/">
             <v-list-item-icon>
-              <v-icon>mdi-home</v-icon>
+              <v-icon>mdi-view-dashboard-outline</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item>
 
-          <v-list-item to="/account">
+          <v-list-item to="/game">
             <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
+              <v-icon>mdi-controller-classic-outline</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Account</v-list-item-title>
+            <v-list-item-title>Game</v-list-item-title>
           </v-list-item>
 
           <v-list-item to="/coffee">
             <v-list-item-icon>
-              <v-icon>mdi-coffee</v-icon>
+              <v-icon>mdi-coffee-maker-outline</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Coffee</v-list-item-title>
           </v-list-item>
